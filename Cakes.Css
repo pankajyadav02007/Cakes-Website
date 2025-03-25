@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    
+}
+
+.navbar-sec{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.navbar-sec img{
+    height: 34px;
+}
+
+
+.a-sec {
+    display: flex;
+    gap: 32px;
+}
+
+.a-sec select{
+    font-weight: 600;
+    border: none;
+    font-size: 12x;
+}
+
+.a-sec select:hover{
+    color: blue;
+    border-bottom:1px solid blue ;
+
+}
+
+.a-sec a{
+    text-decoration: none;
+    color: black;
+font-weight: 600;
+font-size: 16px;
+}
+
+.a-sec a:hover{
+    color: blue;
+    border-bottom:1px solid blue ;
+}
+
+.bigImage-card{
+    /* border: 1px solid red; */
+    height: 450px;
+    background-image: url('https://www.monginis.net/wp-content/uploads/2025/01/Moniginis-Banner-1512-X-475-1-1.png');
+}
+
+#h1-sec{
+    text-align: center;
+    margin-top: 60px;
+}
+
+#h1-sec span{
+    color:rgb(236,38,143);
+}
+
+.order-sec{
+    /* border: 1px solid red; */
+    height: 550px;
+    padding-top: 24px;
+    padding-right: 80px;
+    display: flex;
+}
+
+.order-sec button{
+    height: 36px;
+    width: 130px;
+    position: relative;
+    left: 200px;
+    top: 16px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(236,38,143);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Bestseller-Categories-sec{
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    height: 450px;
+    background-color: rgb(226,222,245);
+}
+
+.Bestseller-Categories-sec .cards-sec{
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 180px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px;
+    gap: 20px;
+}
+
+.cards-sec div{
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    background-color: white;
+    overflow-y: hidden;
+}
+
+.b-sec{
+    /* border: 1px solid red; */
+    position: relative;
+    top: -150px;
+    margin-left: 200px;
+}
+
+.cards-sec div img{
+    height: 200px;
+}
+
+.cards-sec h2{
+    padding-left: 160px;
+    padding-bottom: 40px;
+}
+
+.cards-sec button{
+    width: 120px;
+    height: 40px;
+    margin-left: 250px;
+    color: white;
+    background-color: rgb(236,38,143);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.c-sec{
+    /* border: 1px solid red; */
+    position: relative;
+    top: -150px;
+    margin-left: 150px;
+}
+
+.cards-sec div img{
+    height: 200px;
+}
+
+.cards-sec h2{
+    padding-left: 160px;
+    padding-bottom: 40px;
+}
+
+.cards-sec .c-sec button{
+    width: 120px;
+    height: 40px;
+    margin-left: 300px;
+    color: white;
+    background-color: rgb(236,38,143);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid red;
+}
+
+.cakes-sec{
+    height: 450px;
+    /* border: 1px solid red; */
+padding: 50px;
+
+}
+
+p{
+    font-size: 14px;
+}
+.cakes-content{
+    /* border: 1px solid red; */
+display: flex;
+justify-content: space-between;
+padding-left: 50px;
+padding-right: 70px;
+
+}
+
+.cakes-content h1 span{
+    color: rgb(236,38,143);
+}
+
+.cakes-content #button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: rgb(236,38,143);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.cakes-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.cakes-card p{
+    font-weight: 600;
+}
+
+.cakes-card img{
+    border-radius: 100%;
+padding-bottom: 20px;
+}
+
+#Dcakes-sec{
+    /* border: 1px solid red; */
+    height: 450px;
+    background-color:rgb(226,222,245) ;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.bgImage{
+    background-image: url('https://www.monginis.net/wp-content/uploads/2022/06/Untitled-design-24.png');
+height: 150px;
+background-size: cover;
+}
+
+.bgImage p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 32px;
+}
+
+.about{
+text-align: center;
+margin-top: 32px;
+}
+
+.about span{
+    color: rgb(236,38,143);
+}
+
+.Subscribe-sec{
+   height: 350px;
+   margin-top: 32px;
+   background-color: rgb(228,224,244);
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+.Subscribe-sec img{
+    position:relative ;
+    left: 900px;
+    top: 40px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 12px 12px 4px gray;
+}
+
+.deal{
+    position: relative;
+    bottom: 250px;
+    left: 150px;
+    line-height: 60px;
+}
+
+.deal h1 span{
+    color: rgb(236,38,143);
+
+}
+.deal p{
+    font-weight: 600;
+}
+
+.deal input{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 12px;
+}
+
+.deal button{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(32,19,75);
+    border: none;
+}
+
+.spacility{
+    padding-top: 32px;
+    text-align: center;
+    height: 350px;
+}
+
+.spacility h1 span{
+    color: rgb(236,38,143);
+
+}
+
+.spacility-card{
+    margin-top: 32px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.spacility-card div{
+    display: flex;
+    align-items: center;
+font-size: 20px;
+line-height: 28px;
+}
+
+.p-sec{
+    line-height: 26px;
+    padding-left: 90px;
+    font-size: 18px;
+    color: gray;
+}
+
+.p-sec b{
+    color: rgba(0, 0, 0, 0.671);
+    font-size:16px ;
+    font-weight: 600;
+}
+
+.footer-sec{
+    margin-top: 32px;
+    padding: 50px;
+}
+
+.footer-sec .img-sec{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.footer-sec h3{
+padding-bottom: 20px;
+}
+
+.content-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content-footer p{
+    line-height: 28px;
+}
+
+#abc p{
+    padding-bottom: 24px;
+}
